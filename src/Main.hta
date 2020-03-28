@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>HTML Application</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+        <hta:application id="hta"
+            applicationName="Main"
+            border="thick"
+            borderStyle="normal"
+            caption="yes"
+            contextMenu="yes"
+            icon="icon.ico"
+            innerBorder="yes"
+            maximizeButton="yes"
+            minimizeButton="yes"
+            navigable="yes"
+            scroll="yes"
+            scrollFlat="no"
+            selection="yes"
+            showInTaskBar="yes"
+            singleInstance="no"
+            sysMenu="yes"
+            version="1.0"
+            windowState="normal"/>
+    </head>
+    <body>
+        <pre id="out"></pre>
+        <script>
+            out.innerText=
+                "applicationName: "+hta.applicationName+
+                "\nborder: "+hta.border+
+                "\nborderStyle: "+hta.borderStyle+
+                "\ncaption: "+hta.caption+
+                "\ncommandLine: "+hta.commandLine+
+                "\ncontextMenu: "+hta.contextMenu+
+                "\nicon: "+hta.icon+
+                "\ninnerBorder: "+hta.innerBorder+
+                "\nmaximizeButton: "+hta.maximizeButton+
+                "\nminimizeButton: "+hta.minimizeButton+
+                "\nnavigable: "+hta.navigable+
+                "\nscroll: "+hta.scroll+
+                "\nscrollFlat: "+hta.scrollFlat+
+                "\nselection: "+hta.selection+
+                "\nshowInTaskBar: "+hta.showInTaskBar+
+                "\nsingleInstance: "+hta.singleInstance+
+                "\nsysMenu: "+hta.sysMenu+
+                "\nversion: "+hta.version+
+                "\nwindowState: "+hta.windowState;
+        </script>
+    </body>
+</html>
